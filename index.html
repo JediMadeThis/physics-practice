@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuang</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mainPage" id="mainPage">
+      <h1>Practice for Physics</h1>
+
+      <div class="mainPageMenu">
+        <div class="fancyBtnBg">
+          <button class="fancyBtn" id="siPrefixBtn">
+            <div class="fancyBtnContent">SI Unit Prefixes</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="siPrefixPage transitionPh" id="siPrefixPage">
+      <div class="fancyBtnBg backBtnWrapper">
+        <button class="fancyBtn" , id="siPrefixBackBtn">
+          <div class="fancyBtnContent">Back</div>
+        </button>
+      </div>
+      <h1>SI Unit Prefixes</h1>
+
+      <div class="siPrefixQuestion">
+        <p class="prefixText">Prefix:</p>
+        <p class="prefixSelected" id="prefixSelected">-</p>
+      </div>
+
+      <div class="siPrefixAnswerPart">
+        <p class="prefixBaseTen">
+          10<sup
+            ><input
+              class="prefixAnswerBox"
+              id="prefixAnswerBox"
+              type="number"
+              readonly
+          /></sup>
+        </p>
+
+        <div class="prefixAnswerChoices">
+          <button class="fancyBtn" id="answerPrefix18">
+            <div class="fancyBtnContent">18</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix15">
+            <div class="fancyBtnContent">15</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix12">
+            <div class="fancyBtnContent">12</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix9">
+            <div class="fancyBtnContent">9</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix6">
+            <div class="fancyBtnContent">6</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix3">
+            <div class="fancyBtnContent">3</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix2">
+            <div class="fancyBtnContent">2</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix1">
+            <div class="fancyBtnContent">1</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-1">
+            <div class="fancyBtnContent">-1</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-2">
+            <div class="fancyBtnContent">-2</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-3">
+            <div class="fancyBtnContent">-3</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-6">
+            <div class="fancyBtnContent">-6</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-9">
+            <div class="fancyBtnContent">-9</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-12">
+            <div class="fancyBtnContent">-12</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-15">
+            <div class="fancyBtnContent">-15</div>
+          </button>
+          <button class="fancyBtn" id="answerPrefix-18">
+            <div class="fancyBtnContent">-18</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./linkTransition/linkTransition.js"></script>
+    <link rel="stylesheet" href="./fancyBtn/style.css" />
+    <link rel="stylesheet" href="./linkTransition/linkTransition.css" />
+  </body>
+</html>
