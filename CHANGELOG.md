@@ -2,6 +2,12 @@
 
 Details of changes made will be stored here!
 
+## v1.0.2 (2025-06-17)
+
+### Fixed
+
+- Part of the content that got cut off cannot be scrolled down in mobile devices
+
 ## v1.0.1 (2025-06-17)
 
 ### Fixed
