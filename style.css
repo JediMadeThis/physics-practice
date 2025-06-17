@@ -5,6 +5,10 @@ body {
   background-color: #222222;
 }
 
+body {
+  min-width: 1024px;
+}
+
 * {
   font-family: 'Nunito', sans-serif;
   color: white;
@@ -40,7 +44,6 @@ input::-webkit-inner-spin-button {
 
 .backBtnWrapper {
   position: absolute;
-  display: inline-block;
   top: 10px;
   left: 10px;
   /* margin-top: 10px;
