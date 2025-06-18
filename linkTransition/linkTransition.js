@@ -10,8 +10,4 @@ window.linkTransition = function (from, to, isBackwards = false) {
   document.getElementById(to).style.animation = `phSlide${
     isBackwards ? 'Rv' : ''
   } ${animationDuration}s ease forwards`;
-
-  // setTimeout(() => {
-  //   window.location.href = link;
-  // }, animationDuration * 1000);
 };

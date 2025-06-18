@@ -35,12 +35,17 @@ const siPrefixes = {
 };
 
 let currentPrefix = '';
+let siPrefixesPool = Object.assign({}, siPrefixes);
 
 function generate() {
-  let removedCurrentPrefixes = siPrefixes;
+  if (!Object.keys(siPrefixesPool)) {
+    siPrefixesPool = Object.assign({}, siPrefixes);
+  }
+
+  let removedCurrentPrefixes = siPrefixesPool;
 
   if (currentPrefix) {
-    console.log('Removed current prefix');
+    console.log(`Removed current prefix: ${currentPrefix}`);
     delete removedCurrentPrefixes[currentPrefix];
   }
 
@@ -50,6 +55,7 @@ function generate() {
   currentPrefix = prefix;
 
   console.log(removedCurrentPrefixes, prefix);
+  console.log(`Prefix pool: ${Object.keys(siPrefixesPool).length}`);
   prefixSelectedText.textContent = currentPrefix;
 }
 
@@ -69,9 +75,13 @@ prefixAnswerChoices.forEach((btn) => {
       ).style.border = '3px solid #77ee77';
     }
 
-    prefixAnswerBox.textContent = siPrefixes[currentPrefix];
+    prefixAnswerBox.value = siPrefixes[currentPrefix];
+    prefixAnswerChoices.forEach((btn1) => (btn1.disabled = true));
 
     setTimeout(() => {
+      prefixAnswerChoices.forEach((btn1) => (btn1.disabled = false));
+      prefixAnswerBox.value = '';
+
       btn.style.border = 'none';
       document.getElementById(
         `answerPrefix${siPrefixes[currentPrefix]}`
