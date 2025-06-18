@@ -2,6 +2,13 @@
 
 Details of changes made will be stored here!
 
+## v1.1.2 (2025-06-18)
+
+### Fixed
+
+- **SI Unit Prefixes page**
+  - Changed back the delay to view the answer after answering from `100ms` that's left after testing, to `1500ms`
+
 ## v1.1.1 (2025-06-18)
 
 ### Fixed

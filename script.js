@@ -89,6 +89,6 @@ prefixAnswerChoices.forEach((btn) => {
       prefixAnswerBox.textContent = '';
 
       generate();
-    }, 100);
+    }, 1500);
   });
 });
