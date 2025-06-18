@@ -2,6 +2,13 @@
 
 Details of changes made will be stored here!
 
+## v1.1.1 (2025-06-18)
+
+### Fixed
+
+- **SI Unit Prefixes page**
+  - Re-fixed questions not appearing when answered all of the questions pool
+
 ## v1.1.0 (2025-06-18)
 
 ### Fixed
