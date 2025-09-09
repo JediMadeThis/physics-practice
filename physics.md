@@ -133,6 +133,8 @@ Work done is force that makes an object move.
 >
 > `d` = Distance (m)
 
+---
+
 ### Power
 
 Power is the rate of work used/given per second.
@@ -147,6 +149,8 @@ Power is the rate of work used/given per second.
 >
 > `t` = Time (s)
 
+---
+
 ### Kinetic Energy
 
 Kinetic Energy comes with **movement**.
@@ -160,6 +164,8 @@ Kinetic Energy comes with **movement**.
 > `m` = Mass (kg)
 >
 > `v` = Velocity (m/s²)
+
+---
 
 ### Gravitational Potential Energy
 
@@ -176,6 +182,8 @@ Gravitational Potential Energy comes with **height**.
 > `g` = Gravity (m/s²)
 >
 > `h` = Height (m)
+
+---
 
 ### Conservation of Energy
 
