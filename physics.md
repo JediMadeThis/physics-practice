@@ -27,7 +27,7 @@ Change of velocity per second.
 
 **Unit**: `m/s²`
 
-> **Formula**: `change of velocity / time`
+> **Formula**: `Change of velocity / Time`
 
 ## Force
 
@@ -67,11 +67,11 @@ Force between two masses.
 
 > **Formula**: `W = mg`
 >
-> `W` = weight (N)
+> `W` = Weight (N)
 >
-> `m` = mass (kg)
+> `m` = Mass (kg)
 >
-> `g` = gravity (m/s²)
+> `g` = Gravity (m/s²)
 
 ## Friction Force
 
@@ -187,4 +187,4 @@ Gravitational Potential Energy comes with **height**.
 
 ### Conservation of Energy
 
-Enery **cannot be built or destroyed**, but can change from **one form to another form**.
+Energy **cannot be built or destroyed**, but can change from **one form to another form**.
